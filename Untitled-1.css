@@ -3,32 +3,40 @@
         height: 220px;
         width: 220px;
         border-radius : 50%;
-        border-color: black;
+        border: 0.15cm solid  white;
         
         
 
     }
 
-   .aa{
+.aa{
     display: flex;
     height: 100vh;
     
     
-   }
-   
+}
+
 
 .left{
     background: #93aead;
+    border: 20px #93aead solid ;
+    width: 27%;
+    padding: 0.7cm;
+    
     
 }
 .right{
-    margin-left: 1%;
+    margin-left: 0%;
     background-color:white;
+    padding: 0.7cm;
+    width: 73%;
     
 }
 .name{
-    font-size: x-large;
+    font-size: xx-large;
     border-radius: 50%;
 }
 
-body{ margin: auto; width: 50%;}
+body{ margin: auto; width: 50%;
+background: rgb(204,204,204);
+height: 50%;}
